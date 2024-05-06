@@ -69,7 +69,7 @@ const Card = ({ }) => {
             "#4caf50"
             : state.toLowerCase() === "unknown" ?
                 "#f44336"
-                : state.toLowerCase() === "operational" || state.toLowerCase() === "idle" ?
+                : state.toLowerCase() === "operational" || state.toLowerCase() === "idle" || state.toLowerCase() === "standby" ?
                     "#00bcd4"
                     : "#ffc107"
 
